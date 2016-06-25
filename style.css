@@ -1,0 +1,168 @@
+
+        .button:focus,
+        .button:active,
+        .button:focus:active {
+          background-image: none;
+          outline: none;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+        }
+
+        button::-moz-focus-inner {
+          border: 0;
+        }
+
+        .button:hover {
+          opacity: 0.7;
+        }
+
+        .button {
+          height: 50px;
+          width: 100px;
+          border-radius: 10px;
+          text-decoration: none;
+          font-size: 1.25em;
+        }
+
+        .btn {
+          text-align: center;
+        }
+
+        .leftpaper p {
+            float: left;
+          margin: 1em;
+        }
+
+        h1 {
+          text-align: center;
+          font-size: 1.5em;
+          padding-top: 1em;
+        }
+
+        .leftpaper {
+          height: 95%;
+          margin: 1em;
+          border-radius: 3px;
+          background: white;
+        }
+
+        span.paper-clip:after {
+          width: 11px;
+          height: 25px;
+          content: " ";
+          display: block;
+          position: absolute;
+          right: 2px;
+          top: 5px;
+          border-radius: 10px;
+          border: 2px solid grey;
+          border-bottom: 0;
+          border-bottom-right-radius: 0;
+          border-bottom-left-radius: 0;
+        }
+
+        span.paper-clip {
+          margin-top: -5px;
+          margin-left: 15px;
+          height: 50px;
+          width: 15px;
+          border-radius: 10px;
+          border: 2px solid grey;
+          display: inline-block;
+          position: absolute;
+          -ms-transform: rotate(-7deg);
+          /* IE 9 */
+          -webkit-transform: rotate(-7deg);
+          /* Chrome, Safari, Opera */
+          transform: rotate(-7deg);
+        }
+
+        blockquote {
+          font-family: Georgia, serif;
+          font-size: 18px;
+          font-style: italic;
+          margin: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 30px;
+          line-height: 1.45;
+          position: relative;
+          color: #383838;
+        }
+
+        blockquote:before {
+          display: block;
+          padding-left: 10px;
+          content: "\201C";
+          font-size: 80px;
+          position: absolute;
+          left: -20px;
+          top: -20px;
+          color: #7a7a7a;
+        }
+
+        .quote {
+          background-color: rgba(255, 255, 255, 0.8);
+          border: 1px solid grey;
+          height: auto;
+        }
+
+        #saying {
+          text-align: left;
+          font-size: 0.9em;
+        }
+
+        #author {
+          text-transform: uppercase;
+        }
+
+        #picture {
+          visibility: hidden;
+          margin: 0.5em;
+          z-index: 1;
+          padding: 0.5em;
+          padding-bottom: 1.5em;
+          height: 10em;
+          background: white;
+          border: 1px solid white;
+        }
+
+        .block {
+          background: white;
+          padding: 1em;
+          margin: 0.5em;
+          text-align: right;
+        }
+
+        .left {
+          font-family: Georgia, serif;
+          float: left;
+          height: 100%;
+          width: 50%;
+          border-radius: 5px 0 0 5px;
+          background: #D9A96F;
+        }
+
+        .right {
+         width: 50%;
+          height:100%;
+          float: left;
+          border-radius: 0 5px 5px 0;
+          background: #f2bc7c;
+        }
+
+        .folder {
+          height: 90%;
+          max-width: 800px;
+          margin: auto;
+          margin-top: 50px;
+        }
+
+        body {
+          background: url("http://www.pageresource.com/wallpapers/wallpaper/wood-textures-texture-baby_292712.jpg");
+        }
+
+        * {
+          margin: 0;
+          padding: 0;
+        }
